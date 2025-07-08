@@ -8,7 +8,8 @@ const WeatherApp = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
-  const API_BASE_URL = 'http://localhost:3001/api';
+  const API_BASE_URL = 'https://havadurumu-production.up.railway.app/api';
+//const API_BASE_URL = 'http://localhost:3001/api';
 //const API_BASE_URL = 'https://your-backend-url.com/api';
 
 
